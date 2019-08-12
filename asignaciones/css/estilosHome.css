@@ -1,8 +1,9 @@
 nav
 {
-    font-size: medium;
-    background-color: #13b9c5;
-    
+    font-size: 23px;
+    line-height: 32px;
+    background-color: #053336;
+    background-position-x: 23px;
     
 }
 img
@@ -12,11 +13,12 @@ img
 }
 footer
 {
-    font-size: medium;
-    background-image: image(imagenes/4749.png);
+    font-size: 15px;
+    background-color:#102ccc;
 }
 h2
 {
+    font: size 20px;
   left:100px ;
   right: 100px;
 
