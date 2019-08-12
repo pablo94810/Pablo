@@ -1,0 +1,16 @@
+menu
+{
+    font-size: medium;
+    background: rgb(9, 30, 223);
+    text-emphasis-color: #fff;
+}
+img
+{
+    right: 50px;
+    left: 200px;
+}
+footer
+{
+    font-size: medium;
+    background-image: image(imagenes/4749.png);
+}
