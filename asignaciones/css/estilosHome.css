@@ -1,4 +1,4 @@
-menu1
+nav
 {
     font-size: medium;
     background-color: #13b9c5;
@@ -15,7 +15,8 @@ footer
     font-size: medium;
     background-image: image(imagenes/4749.png);
 }
-body
+h2
 {
+  left:50px ;
     
 }
