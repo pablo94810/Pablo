@@ -14,3 +14,7 @@ footer
     font-size: medium;
     background-image: image(imagenes/4749.png);
 }
+body
+{
+    background-color: aquamarine;
+}
