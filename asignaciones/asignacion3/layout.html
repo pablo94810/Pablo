@@ -5,38 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="StyleSheet" href="../css/estilosHome.css"  type="text/css">  
+    <link rel="StyleSheet" href="../css/estilo.css"  type="text/css">  
    
 </head>
 <body>
     
     <header>
-         <nav class="menu">
+         <nav>
 
-                <ul>
-                        <li>  <a href="#">informacion</a>
-                        <ul>
-                            <li> <a href="#">los lugares mas visitados</a></li>
-                            <li> <a href="#">el clima actual</a></li>
-                            <li> <a href="#">gastronomia</a></li>
-                            <li> <a href="#">flora y fauna</a></li>
-                        </ul>
-                        <li> <a href="#">noticias</a> 
-                        <li><a href="#">lugares </a>
-                        <ul>
-                            <li> <a href="#">torotoro</a></li>
-                            <li> <a href="#">cochabamba</a></li>
-                        </ul>
+                <ul class="navL" >
+                        <li> <a href="#">informacion</a>
+                             <ul>
+                                <a href="#">los lugares mas visitados</a>
+                                <a href="#">el clima actual</a>
+                                <a href="#">gastronomia</a>
+                                <a href="#">flora y fauna</a>
+                             </ul>
+                        </li>
+                            <li> <a href="#">noticias</a></li> 
+                            <li><a href="#">lugares </a>
+                                <ul>
+                                 <a href="#">torotoro</a>
+                                 <a href="#">cochabamba</a>
+                              </ul>
+                           </li>
                         <li>  <a href="#">contacto</a>
                         <li> <a href="#">reservas</a>
                         <li><a href="#"> galeria </a>
                             <li>   <img id="logo" src="../imagenes/fotologo.PNG" alt="Smiley face" width="300" height="200">
                     </ul>
-        
-       
-    
-         
+                    <div class="burger">
+                        <div class="linea1"></div>
+                        <div class="linea2"></div>
+                        <div class="linea3"></div>
+                    </div>   
         </nav> 
+        <script src="../JavaScrip/JavaS.js"></script>
     </header>
 
     <main>
@@ -77,13 +81,18 @@
                 <li><a href="https://www.youtube.com/">Youtube</a></li>
                 <li> <a href="https://www.instagram.com/?hl=es-la">Instagram</a></li>
             </ul>
+            <script>
+                function hora() {
+                 var DateString=(new Date()).toString();
+                 self.status=DateString.substring(0,3+DateString.lastIndexOf(':'))+
+                 "Cualquier mensaje";
+                 setTimeout("hora()",200);}
+                hora()
+                </script>  
         </ul>
+        
 
     </footer>
-
-
-
-
 
 </body>
 </html>

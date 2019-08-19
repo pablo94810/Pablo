@@ -1,4 +1,4 @@
-nav
+header
 {
     font-size: 23px;
     line-height: 32px;
@@ -6,9 +6,10 @@ nav
     background-position-x: 23px;
     
 }
-img
+#navegador
 {
-  font-size: 5px;
+  speak-as: 20%;
+  color: #053336;
 }
 footer
 {
