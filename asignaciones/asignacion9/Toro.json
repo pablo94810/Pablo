@@ -1,0 +1,15 @@
+{
+    "squadName": "Gastronomia de Cochabamba",
+    "active": true,
+    "members": [
+      {
+        "name": "Pique-Macho",
+        "descripcion":"El Pique Macho es un plato boliviano muy popular que consiste en trozos de carne de res en su jugo y salchicha fritas acompañados de papas fritas, huevo, rodajas de pimiento y tomate." 
+      },
+      {
+        "name": "Silpancho",
+        "descripcion": "Su nombre viene del quechua Silpanch'u, que significa: carne delgada, aplastada. Es un plato típico de la ciudad de Cochabamba (ciudad del valle, famosa por su gastronomía). Este plato no tiene más de 60 años y consiste en un pedazo de carne de res aplastada, acompañada por arroz, patatas doradas, sarsa (ensalada de cebolla con tomates), locoto (fruto picante, utilizado como condimento en Sudamérica) y huevo frito."
+
+      } 
+    ]
+  }
