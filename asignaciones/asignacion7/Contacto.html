@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="c.css">    
+</head>
+<h2>Contacto</h2>
+<body>
+    <form action="contact" method="get">
+    <fieldset>
+        <legend>Information:</legend>
+    <label>Nombre Completo<input name="nombre" type="text" size="40" pattern="[A-Za-z].{5,}" placeholder="Name" required></label>
+    <label>E-mail<input name="e-mail" type="e-mail" placeholder="example@gmail.com" ></label>
+    <label>Telefono <input name="phone" type="tel" placeholder="###-###-####" required ></label>
+    <label>Fecha<input type="date" name="date" ></label>
+    <label>Tipo de usuario
+        <input list="" name="TypeUser">
+        <datalist id=typeuser>  
+            <option value="Turista Nacional" ></option>
+            <option value="Turista Extranjero" ></option>
+        </datalist>
+    </label>
+    <label>Lugar del requiere mas informacion
+    <select name="place">
+            <option value="" >Seleccion del lugar</option>
+            <option value="Cochabamba">Cochabamba</option>
+            <option value="Toro-Toro" >Toro-Toro</option>
+    </select>
+</label>
+    </fieldset>
+    <input class="send" type="submit" value="Enviar">
+</form>
+</body>
+</html>

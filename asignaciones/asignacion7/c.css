@@ -1,0 +1,29 @@
+form input{
+    display: block;
+    background-color:#151616cb;
+    color:#ffff;
+    padding: 5px;
+}
+form
+{
+    display: block;
+    background-color: #053250cb;
+    padding: 5px;
+    margin:20px;
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    text-decoration-color: aliceblue;
+}
+label
+{
+    color:aliceblue;
+}
+h2
+{
+    margin-left: 37%;
+}   
+legend
+{
+    color:aliceblue;
+}
